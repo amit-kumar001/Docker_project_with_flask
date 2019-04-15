@@ -75,6 +75,7 @@ we will provide details about <strong>database</strong> and web <strong>(project
 <li>restart it always</li>
 <li>Provide a password for mysql.</li>
 </ol>
+
 ```
 
     db:
@@ -92,6 +93,7 @@ we will provide details about <strong>database</strong> and web <strong>(project
 <li>name of python file (connection file)  command:  python app.py</li>
 <li>docker port = ports- "2226:5000"</li>
 </ol>
+
 ```
  web:
       restart: always
@@ -101,16 +103,16 @@ we will provide details about <strong>database</strong> and web <strong>(project
         - "2226:5000"
 ```
 
- 
 <li>Now we can run our project :-</br>
 build an image of this project</br>
-<strong>$ docker build -t docker_register:latest . <strong></li> 
+<strong>$ docker build -t docker_register:latest . <strong></li>   
   
- ![built](https://user-images.githubusercontent.com/47202519/56130684-34b38900-5fa3-11e9-9abc-a3a554ec3ecb.png)
+  
+![built](https://user-images.githubusercontent.com/47202519/56130684-34b38900-5fa3-11e9-9abc-a3a554ec3ecb.png)
 
 
 <li>Run compose file to run the project</br>
-<strong>$ docker-compose up</strong></li>    
+<strong>$ docker-compose up</strong></li>     
 
 ![comp](https://user-images.githubusercontent.com/47202519/56130881-b4d9ee80-5fa3-11e9-96bb-8f3cef71e8e0.png)
 
@@ -190,7 +192,7 @@ now image is available for everyone to use.</li>
 
 ```
 </ol>
-<ol>
+
 
 
 
