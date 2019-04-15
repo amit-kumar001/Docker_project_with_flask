@@ -182,7 +182,7 @@ now image is available for everyone to use.</li>
 <li>To run this project we need to share <strong>docker-compose.yml</strong> file but, we need to make some changes in this file.</br>
 <li>Make changes in web :- image:provide_name_of_docker_hub_images</li>
 <li>images: docker_hub_username/repository_name:any_tag</li>
-<li>To run the project in any other system we need to share and run the docker-compose.yml file with docker command</li>
+<li>To run the project in any other system we need to share and run the docker-compose.yml file with docker commands.</li>
 
 ```
  web:
