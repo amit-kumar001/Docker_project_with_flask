@@ -35,6 +35,7 @@ mkdir folder_name</li>
 <li><strong>WORKDIR :- which project is working </strong></li>
 <li>Run requirement file :-<strong> RUN pip install -r requirements.txt</strong></li>
 </ol>
+
 ```
 FROM ubuntu:16.04
 RUN apt-get update
@@ -46,9 +47,8 @@ WORKDIR /docker_register
 
 RUN pip install -r requirements.txt
 
-
-
 ```
+
 
 
 <li>We need to create a new txt file <strong>'requirements.txt'</strong></br>
