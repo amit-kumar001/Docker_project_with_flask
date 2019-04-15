@@ -105,7 +105,7 @@ we will provide details about <strong>database</strong> and web <strong>(project
 
 <li>Now we can run our project :-</br>
 build an image of this project</br>
-<strong>$ docker build -t docker_register:latest . <strong></li>   
+<strong>$ docker build -t docker_register:latest . </strong></li>   
   
   
 ![built](https://user-images.githubusercontent.com/47202519/56130684-34b38900-5fa3-11e9-9abc-a3a554ec3ecb.png)
@@ -126,10 +126,11 @@ build an image of this project</br>
 <strong>$ docker ps -a</strong></li>  
 
 ![ps](https://user-images.githubusercontent.com/47202519/56131147-4d706e80-5fa4-11e9-96aa-7107151d1862.png)
+
 <li>Need to create database with the help of mysql container name.</br>
  <strong>$ docker exec -it dockerregister_db_1 bash</strong></br>
- Use <strong>mysql-query</strong> to create database</li>  
-
+ Use <strong>mysql-query</strong> to create database</li>     
+ 
 ![data](https://user-images.githubusercontent.com/47202519/56131388-e3a49480-5fa4-11e9-9693-f00e88c80f10.png)
 
 </ol>
@@ -156,10 +157,10 @@ we need to create an account on <strong>https://hub.docker.com/.</strong> After 
   <strong>$ docker login --username=docker_hub_username</strong> or</br>
   <strong>$ docker login --email=_@_.com</strong></li>  
   
- ![login](https://user-images.githubusercontent.com/47202519/56132417-89590300-5fa7-11e9-87bf-0696719a9e34.png)
+![login](https://user-images.githubusercontent.com/47202519/56132417-89590300-5fa7-11e9-87bf-0696719a9e34.png)
 
 <li>Check the image ID that we want to push </br>
-<strong>$ docker image</strong></br>  
+<strong>$ docker image</strong></br>   
 
 ![img](https://user-images.githubusercontent.com/47202519/56132876-c245a780-5fa8-11e9-9145-aba5de9aa499.png)
 
@@ -180,6 +181,7 @@ now image is available for everyone to use.</li>
 <li>Make changes in web :- image:provide_name_of_docker_hub_images</li>
 <li>images: docker_hub_username/repository_name:any_tag</li>
 <li>To run the project in any other system we need to share and run the docker-compose.yml file with docker command</li>
+
 ```
  web:
       restart: always
