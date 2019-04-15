@@ -154,7 +154,7 @@ we need to create an account on <strong>https://hub.docker.com/.</strong> After 
 <li>Log in on <strong>https://hub.docker.com/</strong></li>
 <li>Click on <strong>Create Repository.</strong></li>
 <li>Log into the Docker Hub from the command.</li>
-</ol>
+</ol></br>
 <li><strong>$ docker login</strong> or</br>
   <strong>$ docker login --username=docker_hub_username</strong> or</br>
   <strong>$ docker login --email=_@_.com</strong></li>  
