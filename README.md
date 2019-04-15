@@ -5,10 +5,10 @@ We create a project, in which front page in the <strong>HTML language</strong> a
 
 <li><strong>First step</strong> :- Create front page in <strong>HTML language(register.html)</strong>.</li>
 
-<li><strong>Second step</strong> :- Create connection page in <strong>python language</strong>.<li>
+<li><strong>Second step</strong> :- Create connection page in <strong>python language</strong>.</li>
 <li>We will create a connection page with the help of <strong>flask</strong> and in this page we need:-</li>
 <ol>
-<li><strong>SOLAlchemy </strong>:- use to make a connection between python and database.<li>
+<li><strong>SOLAlchemy </strong>:- use to make a connection between python and database.</li>
 <li><strong>app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123@db:3306/my_db'</strong></li>
 <strong>app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:'password'@db:port for database/name_of_database'</strong></br> 
 <strong>NOTE:- </strong>/Before running this project we need to create a database in the <strong>docker database(mysql)</strong></br>
@@ -134,6 +134,7 @@ build an image of this project</br>
 ![data](https://user-images.githubusercontent.com/47202519/56131388-e3a49480-5fa4-11e9-9693-f00e88c80f10.png)
 
 </ol>
+
 
 <li>now run docker-compose up command</li>
 <ol>
