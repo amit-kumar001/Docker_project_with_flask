@@ -143,7 +143,7 @@ Open another terminal</br>
 check project status and run port in a browser <strong>'0.0.0.0:2226'</strong></br>
 fill the form and check database.</li>
 </ol>
-
+</ol>
 ### Upload image on docker hub
 <ol>
 <li>Docker Hub is the place where open Docker images are stored.</br>
