@@ -49,12 +49,11 @@ RUN pip install -r requirements.txt
 
 ```
 
-
-
 <li>We need to create a new txt file <strong>'requirements.txt'</strong></br>
 In this file, we will store all the requirements that we required to run this project.</br>
 use commands to freeze requirements</br>
 <strong>$ pip freeze > requirements.txt</strong></li>
+
 ```
 Click==7.0
 Flask==1.0.2
