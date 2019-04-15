@@ -144,7 +144,9 @@ check project status and run port in a browser <strong>'0.0.0.0:2226'</strong></
 fill the form and check database.</li>
 </ol>
 </ol>
+
 ### Upload image on docker hub
+
 <ol>
 <li>Docker Hub is the place where open Docker images are stored.</br>
 we need to create an account on <strong>https://hub.docker.com/.</strong> After verifying your email you are ready to go and upload your first docker image.</li>
