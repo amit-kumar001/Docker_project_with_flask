@@ -31,8 +31,8 @@ mkdir folder_name</li>
 <li><strong>'from'</strong> will define in which base we are creating an image like:-</br>
 <strong>FROM ubuntu:16.04</strong></li>
 <li><strong>RUN command</strong> is used to run instructions against the image. In our case, we first update our Ubuntu system and then install the <strong>python-pip python</strong> and <strong>libmysqlclient</strong> on our ubuntu image.</li>
-<li><strong>COPY :- provide project name with './'</strong></li>
-<li><strong>WORKDIR :- which project is working </strong></li>
+<li>COPY :- provide project name with './' This is the command that will run when the Container starts.</li>
+<li>WORKDIR :- Define the default working directory for the command defined in the “ENTRYPOINT” or “CMD” instructions </li>
 <li>Run requirement file :-<strong> RUN pip install -r requirements.txt</strong></li>
 </ol>
 
@@ -140,7 +140,7 @@ build an image of this project</br>
 <ol>
 <li><strong>$ docker-compose up</strong></li>
 Open another terminal</br>
-<li><strong>$ docker ps -a</strong></li>
+<li><strong>$ docker ps -a</strong></li>https://github.com/amit-kumar001/Docker_connection_with_MYSQL
 check project status and run port in a browser <strong>'0.0.0.0:2226'</strong></br>
 fill the form and check database.</li>
 </ol>
