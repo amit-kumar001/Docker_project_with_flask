@@ -8,7 +8,7 @@ We create a project, in which front page in the <strong>HTML language</strong> a
 <li><strong>Second step</strong> :- Create connection page in <strong>python language</strong>.</li>
 <li>We will create a connection page with the help of <strong>flask</strong> and in this page we need:-</li>
 <ol>
-<li><strong>SOLAlchemy </strong>:- use to make a connection between python and database.</li>
+<li><strong>SQLAlchemy </strong>:- use to make a connection between python and database.</li>
 <li><strong>app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123@db:3306/my_db'</strong></li>
 <strong>app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:'password'@db:port for database/name_of_database'</strong></br> 
 <strong>NOTE:- </strong>/Before running this project we need to create a database in the <strong>docker database(mysql)</strong></br>
