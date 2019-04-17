@@ -1,5 +1,8 @@
 # Docker_project_with_flask
-### Docker_project_with_flask
+### Docker_project_with_flask   
+
+![docker_compose](https://user-images.githubusercontent.com/47202519/56291303-afff7100-6142-11e9-8a6d-4be60843c198.jpg)
+
 <ol> 
 We create a project, in which front page in the <strong>HTML language</strong> and the data will store in the <strong>docker database</strong>. We establish a connection between the <strong>HTML page</strong> and <strong>docker database</strong> with the help of <strong>python language (flask)</strong>.  In this case, the <strong>flask</strong> is used to make the connection between the <strong>docker database and HTML page</strong>.</br>
 
