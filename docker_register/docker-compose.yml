@@ -4,7 +4,8 @@ services:
       build:
         context: .
         dockerfile: dockerfile
-      restart: always
+      restart: unless-stopped
+      tty: true
       image: abcd
       command:  python app.py
       ports:
@@ -19,6 +20,7 @@ services:
     db:
       image: mysql:5.7.22
       restart: unless-stopped
+      tty: true
       environment:
         MYSQL_DATABASE: my_db
         MYSQL_ROOT_PASSWORD: 123
