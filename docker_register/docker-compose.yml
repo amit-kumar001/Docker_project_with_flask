@@ -5,7 +5,7 @@ services:
         context: .
         dockerfile: dockerfile
       restart: always
-      image: docker_register
+      image: abcd
       command:  python app.py
       ports:
         - "2226:5000"
