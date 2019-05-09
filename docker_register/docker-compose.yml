@@ -1,15 +1,9 @@
 version: '2'
 services:
-
-    db:
-      image: mysql
-      restart: always
-      environment:
-        MYSQL_ROOT_PASSWORD: 123
-      networks:
-        - main
-
     web:
+      build:
+        context: .
+        dockerfile: dockerfile
       restart: always
       image: docker_register
       command:  python app.py
@@ -22,9 +16,23 @@ services:
       networks:
         - main
 
+    db:
+      image: mysql:5.7.22
+      restart: unless-stopped
+      environment:
+        MYSQL_DATABASE: my_db
+        MYSQL_ROOT_PASSWORD: 123
+      ports:
+      - "13306:3306"
+      networks:
+        - main
+
+    
+
 networks:
   main:
     driver: bridge
 
 volumes:
   scan_file:
+
