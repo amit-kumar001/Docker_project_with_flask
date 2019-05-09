@@ -8,6 +8,8 @@ services:
       tty: true
       image: abcd
       command:  python app.py
+      volumes:
+      - ./:/var/www
       ports:
         - "2226:5000"
       links:
@@ -24,6 +26,8 @@ services:
       environment:
         MYSQL_DATABASE: my_db
         MYSQL_ROOT_PASSWORD: 123
+      volumes:
+      - dbdata:/var/lib/mysql/
       ports:
       - "13306:3306"
       networks:
@@ -36,5 +40,6 @@ networks:
     driver: bridge
 
 volumes:
-  scan_file:
+  dbdata:
+    driver: local
 
