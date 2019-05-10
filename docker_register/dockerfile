@@ -7,6 +7,7 @@ COPY . /docker_register
 WORKDIR /docker_register
 
 RUN pip install -r requirements.txt
+CMD ["python", "app.py"]
 
 
 
