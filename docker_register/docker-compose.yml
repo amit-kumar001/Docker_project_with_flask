@@ -29,7 +29,7 @@ services:
       volumes:
       - dbdata:/var/lib/mysql/
       ports:
-      - "13306:3306"
+      - "1433:3306"
       networks:
         - main
 
